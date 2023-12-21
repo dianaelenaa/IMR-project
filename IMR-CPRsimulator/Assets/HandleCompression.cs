@@ -18,6 +18,8 @@ public class HandleCompression : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("Collision with " + collision.gameObject.name);
+
         if (collision.gameObject.CompareTag("LeftHand"))
         {
             Debug.Log("Compression with left hand");
