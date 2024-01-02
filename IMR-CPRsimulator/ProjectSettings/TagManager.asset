@@ -8,6 +8,7 @@ TagManager:
   - RightHand
   - BreathingZone
   - CompressionZone
+  - GuideZone
   layers:
   - Default
   - TransparentFX
